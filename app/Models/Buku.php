@@ -12,7 +12,7 @@ class Buku extends Model
 {
     use HasFactory;
 
-    public function katgori_buku()
+    public function kategori_buku()
     {
         return $this->belongsTo(KategoriBuku::class);
     }
